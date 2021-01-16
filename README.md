@@ -12,4 +12,4 @@ The features I choose to add were:
  * Animations for loading, adding/deleting movies, notifications
 
 # Notes 
-This project was built using ReactJS and I used localStorage to save the users previous nominations. My perspective on undertaking this project was to give a very simple, yet nice UI. The code has been written with the emphasis on breaking the UI into components to really use what reactJS is all about. I hope you enjoy the website as much as I enjoyed coding it and designing it!
+This project was built using reactJS and I used localStorage to save the users previous nominations. My perspective on undertaking this project was to give a very simple, yet nice UI. The code has been written with the emphasis on breaking the UI into components to really use what reactJS is all about. I hope you enjoy the website as much as I enjoyed coding it and designing it!
