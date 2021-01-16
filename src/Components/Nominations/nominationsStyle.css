@@ -42,30 +42,6 @@
 
 }
 
-.nominated-movie-item{
-        position:relative;
-        width: 300px; 
-        height: auto;
-        margin-top: 10px;
-        margin-right: 10px;
-        padding: 20px 20px 20px 20px;
-        text-align: center;
-        border-radius: 10px;
-}
-
-.remove-button{
-    width: 300px; 
-    height: 30px;
-    border-radius: 5px;
-    background-color: #C4994D;
-    border-color: #C4994D;
-    color: #070605; 
-    cursor: pointer;
-    position: absolute;
-    left: 20px;
-    bottom:   0;
-}
-
 .nominated-movie-list{
     position: relative;
     display: grid;
@@ -75,7 +51,7 @@
 
 
 
-@media screen and (max-width: 1102px) {
+@media screen and (max-width: 1212px) {
     .nominated-movie-list {
         position: relative;
         display: grid;
@@ -91,7 +67,7 @@
     }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 760px) {
     .nominated-movie-list {
         position: relative;
         display: grid;
