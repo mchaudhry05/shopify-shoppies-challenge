@@ -1,0 +1,117 @@
+.results{
+    
+    display: flex;
+    justify-content: center;
+    background-color: #070605;
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    margin-right: 0%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+}
+
+.results-message{
+    display: grid;
+    grid-column: 1/3;
+    color: #C4994D;
+    margin-bottom: 20px;
+}
+
+.error-messages{
+    color: #C4994D;
+}
+
+.movie-list{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .movie-list {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .results-message{
+        display: grid;
+        grid-column: 1/2;
+        color: #C4994D;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .movie-list {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+}
+
+
+
+.movie-item{
+    position:relative;
+    width: 300px; 
+    height: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.movie-name{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.movie-button{
+    width: 300px; 
+    height: 30px;
+    border-radius: 5px;
+    background-color: #C4994D;
+    border-color: #C4994D;
+    color: #070605; 
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    bottom:   0;
+}
+
+.prev-next-button{
+    width: 50%; 
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #C4994D;
+    border-color: #C4994D;
+    color: #070605; 
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 80px;
+}
+
+.disable{
+    width: 50%; 
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #3C333C;
+    border-color: #3C333C;
+    color: white;
+}

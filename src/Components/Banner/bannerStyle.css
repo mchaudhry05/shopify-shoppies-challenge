@@ -1,0 +1,14 @@
+.banner{
+    display: block;
+    width:100%; 
+    height: 50px;
+    background-color: #C4994D;
+    color: white; 
+    text-align: center;
+    margin-top: 45px;
+}
+
+.banner-message{
+    padding-top: 15px;
+
+}

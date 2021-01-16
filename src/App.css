@@ -1,0 +1,14 @@
+*{
+  margin: 0px; 
+  padding: 0px;
+}
+
+body{
+  background-color: #F2F2F2; 
+  font-family: Helvetica, sans-serif;
+  background-color: #070604;
+}
+
+.App{
+  height: 100vh;
+}
