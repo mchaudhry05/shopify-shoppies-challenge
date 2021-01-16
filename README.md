@@ -4,7 +4,7 @@
  <h1>Mafaz Chaudhry's Submission</h1>
 </div>
 
-# The Project is live and can be viewed [here.](https://shopify-shoppies-mchaudhry.netlify.app/)
+# The project is live and can be viewed [here.](https://shopify-shoppies-mchaudhry.netlify.app/)
 
 # Extra Features I Added 
 The features I choose to add were: 
